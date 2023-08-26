@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titleLabel">0dp</dimen>
+    <dimen name="subjectLabelWidth">0dp</dimen>
+    <dimen name="subjectLabelHeight">60dp</dimen>
+    <dimen name="btnCountryWidth">222dp</dimen>
+    <dimen name="btnCountryHeight">51dp</dimen>
+    <dimen name="subjectLabelPostalAddress">0dp</dimen>
+    <dimen name="btnApplyWidth">105dp</dimen>
+    <dimen name="btnApplyHeight">52dp</dimen>
+    <dimen name="subjectSearchWidth">197dp</dimen>
+    <dimen name="subjectSearchHeight">40dp</dimen>
+    <dimen name="subjectBtn_Width">120dp</dimen>
+    <dimen name="subjectBtn_Height">48dp</dimen>
+    <dimen name="txtLayout_Width">398dp</dimen>
+    <dimen name="backBtnLayout_Width">0dp</dimen>
+    <dimen name="txtDescriptionLayoutWidth">373dp</dimen>
+    <dimen name="txtDescriptionLayoutHeight">169dp</dimen>
+    <dimen name="btnUpdateWidth">0dp</dimen>
+    <dimen name="btnDeleteHeight">0dp</dimen>
+    <dimen name="btnPaymentWidth">0dp</dimen>
+</resources>

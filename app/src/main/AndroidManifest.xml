@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".UpdatePayment"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentReceipt"
+            android:exported="false" />
+        <activity
+            android:name=".PayNow"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateBooking"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".MyBookings"
+            android:exported="false" />
+        <activity
+            android:name=".BookTour"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".ViewAnEvent"
+            android:exported="false" />
+        <activity
+            android:name=".ViewAllEventsUser"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".ViewAPlace"
+            android:exported="false" />
+        <activity
+            android:name=".ViewAllPlacesUser"
+            android:exported="false" />
+        <activity
+            android:name=".ViewAHotel"
+            android:exported="false" />
+        <activity
+            android:name=".ViewAllHotelsUser"
+            android:exported="false" />
+        <activity
+            android:name=".UpdatePlace"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".UpdateEvent"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".UpdateHotel"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".ViewAllPlacesAdmin"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".viewAllEventsAdmin"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".ViewAllHotelsAdmin"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".AdminDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".Register"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".Add_Hotels"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".Add_Places"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".AddEvent"
+            android:exported="false"
+            android:noHistory="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "577434274986",
+    "project_id": "travel-ceylon-3554d",
+    "storage_bucket": "travel-ceylon-3554d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577434274986:android:7a7f690167ff662264d4d3",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577434274986-k98e8e78dr2sjfcps2devska1f3i9664.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAkOpX64o949xZasDgARsTYmhKhJSN9Fk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577434274986-k98e8e78dr2sjfcps2devska1f3i9664.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
